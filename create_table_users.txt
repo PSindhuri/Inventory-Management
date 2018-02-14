@@ -1,0 +1,19 @@
+use jadrn043;
+
+drop table if exists users;
+
+create table users(
+	username varchar(10) PRIMARY KEY NOT NULL,
+	password varchar(100) NOT NULL
+	);
+	
+insert into users values('cs645','E6D43AB7DDA63BAE6FEFB376AC00FDA1');
+insert into users values('advWeb','649F1C01C81776866935D9393C5D6909');	
+insert into users values('psindhu','0D49586D03318C9F9FC7153B27306CF0');	
+insert into users values('webuser1','08E455073ED85D7BBC9F142B0EDEB451');	
+insert into users values('webuser2','CE32AD24EECCEF9A07A2739300275993');	
+
+
+
+
+

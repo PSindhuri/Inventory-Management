@@ -1,0 +1,25 @@
+use jadrn043;
+
+drop table if exists merchandise_in;
+drop table if exists merchandise_out;
+drop table if exists on_hand;
+
+create table merchandise_in (
+	sku varchar(10) not null,
+	date date,
+	quantity integer
+	);
+	
+create table merchandise_out (
+	sku varchar(10) not null,
+	date date,
+	quantity integer
+	);
+
+create table on_hand (
+	sku varchar(10) not null,
+	last_date_modified date,
+	on_hand_quantity integer
+	);
+
+
